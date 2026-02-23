@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Convite de Casamento - Isadora & Leandro</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="app">
+        <!-- TELA 1: ENVELOPE -->
+        <div id="envelope-screen" class="screen active">
+            <div class="envelope-container">
+                <!-- Fundo com flores -->
+                <div class="flowers flowers-top-right"></div>
+                <div class="flowers flowers-bottom-left"></div>
+
+                <!-- Título -->
+                <h1 class="title">CONVITE<br>ESPECIAL!</h1>
+
+                <!-- Envelope -->
+                <div class="envelope" id="envelope">
+                    <div class="envelope-back"></div>
+                    <div class="envelope-front">
+                        <div class="envelope-flap"></div>
+                        <div class="envelope-body">
+                            <!-- Selo de cera -->
+                            <div class="wax-seal">
+                                <div class="seal-circle">
+                                    <span class="seal-text">I ❤ L</span>
+                                </div>
+                            </div>
+                            <!-- Texto "Clique para abrir" -->
+                            <p class="open-text">Clique para abrir 📬</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Nomes -->
+                <p class="names">Isadora<br>e Leandro</p>
+            </div>
+        </div>
+
+        <!-- TELA 2: CONVITE ABERTO -->
+        <div id="invitation-screen" class="screen">
+            <div class="invitation-container">
+                <!-- Fundo com flores -->
+                <div class="flowers flowers-top-right"></div>
+                <div class="flowers flowers-bottom-left"></div>
+
+                <!-- Conteúdo do convite -->
+                <div class="invitation-content">
+                    <!-- Monograma -->
+                    <div class="monogram">
+                        <p>IL</p>
+                    </div>
+
+                    <!-- Citação bíblica -->
+                    <div class="quote-section">
+                        <p class="quote-text">
+                            Assim, eles já não são dois, mas sim uma só carne.<br>
+                            Portanto, o que Deus uniu, ninguém o separe
+                        </p>
+                        <p class="quote-reference">MATEUS 19:6</p>
+                    </div>
+
+                    <!-- Título do casamento -->
+                    <h2 class="invitation-title">CASAMENTO</h2>
+                    <h3 class="couple-names">Isadora & Leandro</h3>
+
+                    <!-- Descrição -->
+                    <p class="invitation-description">
+                        Commuitocarinho, convidamosvocêparacelebrar<br>
+                        conosco este momento tão especial.
+                    </p>
+
+                    <!-- Data e hora -->
+                    <div class="event-info">
+                        <p class="event-label">SÁBADO</p>
+                        <p class="event-date">23</p>
+                        <p class="event-time">ÀS 16:00</p>
+                        <p class="event-year">2026</p>
+                    </div>
+
+                    <!-- Localização -->
+                    <p class="location">
+                        LOCALIZAÇÃO: Lago Municipal Parque dos Anjos<br>
+                        Bom Sucesso do Sul - PR
+                    </p>
+
+                    <!-- Botões de ação -->
+                    <div class="action-buttons">
+                        <a href="https://wa.me/5541999999999?text=Oi!%20Gostaria%20de%20confirmar%20minha%20presença%20no%20casamento%20de%20Isadora%20e%20Leandro!" class="btn btn-confirm" target="_blank" title="Confirmar presença">
+                            <span class="btn-icon">✓</span>
+                            <span class="btn-label">CONFIRMAR PRESENÇA</span>
+                        </a>
+                        <a href="https://maps.google.com/?q=Lago+Municipal+Parque+dos+Anjos,+Bom+Sucesso+do+Sul,+PR" class="btn btn-location" target="_blank" title="Ver localização">
+                            <span class="btn-icon">📍</span>
+                            <span class="btn-label">LOCALIZAÇÃO</span>
+                        </a>
+                    </div>
+
+                    <!-- Instruções -->
+                    <p class="instructions">CLIQUE NOS ÍCONE PARA INTERAGIR</p>
+
+                    <!-- Informações importantes -->
+                    <div class="important-info">
+                        <p class="info-title">Informações importantes:</p>
+                        <p class="info-item">
+                            1º Após a cerimônia na igreja, esperamos<br>
+                            vocês para a recepção na quadra!
+                        </p>
+                        <p class="info-item">
+                            2º CONVIDADO, NÃO CONVIDADA.
+                        </p>
+                    </div>
+
+                    <!-- Assinatura -->
+                    <p class="signature">
+                        com carinho,<br>
+                        <span class="signature-name">Sheylae Júnior</span>
+                    </p>
+
+                    <!-- Inspiração cores -->
+                    <div class="color-inspiration">
+                        <p class="inspiration-title">Inspire-se</p>
+                        <div class="color-palette">
+                            <div class="color-dot color-white"></div>
+                            <div class="color-dot color-black"></div>
+                            <div class="color-dot color-gray"></div>
+                            <div class="color-dot color-silver"></div>
+                        </div>
+                        <p class="inspiration-text">
+                            Queridos amigos e familiares,<br>
+                            A paleta de cores para os presentes é apenas uma<br>
+                            inspiração. Caso desejem nos presentear com alguma cor<br>
+                            que não esteja na paleta, fiquem totalmente à vontade.<br>
+                            Saibam que o maior presente será, sem dúvida, a presença<br>
+                            de cada um de vocês.
+                        </p>
+                    </div>
+
+                    <!-- Botão voltar -->
+                    <button id="back-button" class="back-button">← Voltar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
